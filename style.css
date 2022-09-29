@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    flex-direction: column;
+
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+ol{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+ul li{
+    padding: 1% 0;
+}
+ul li a {
+    display: block;
+    text-align: center;
+    padding: 2% 2vw;
+    text-decoration: none;
+    color: rgb(34, 32, 32);
+}
+ol li a {
+    display: block;
+    padding: 0 1vw;
+    text-decoration: none;
+    color: rgb(104, 103, 103);
+}
+
+li a:hover{
+   color: rgb(104, 147, 185);
+}
