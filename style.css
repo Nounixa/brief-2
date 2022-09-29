@@ -1,14 +1,13 @@
-nav{
-    display: flex;
-    flex-direction: column;
-
+*{
+    margin: 0px;
 }
-
+/* nav bar */
 ul{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    padding-top: 1%;
 }
 
 ol{
@@ -16,7 +15,7 @@ ol{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-
+    padding-top: 1%;
 }
 
 ul li{
@@ -28,14 +27,60 @@ ul li a {
     padding: 2% 2vw;
     text-decoration: none;
     color: rgb(34, 32, 32);
+    font-weight: bolder;
 }
 ol li a {
     display: block;
     padding: 0 1vw;
     text-decoration: none;
     color: rgb(104, 103, 103);
+    font-weight: bolder;
 }
 
 li a:hover{
    color: rgb(104, 147, 185);
+   text-decoration:underline;
+}
+
+/* cart list section  */
+
+section{
+    padding: 0 4vw;
+    
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 2%;
+}
+.cart{
+    border-style: solid;
+    border-color: rgb(193, 190, 190);
+    padding: 1%;
+    height: 80%;
+    margin: 1%;
+}
+
+.bg{   
+    display: inline-block;
+    margin: 0;
+    width: 90%;
+    height: 60%;
+    background-color: rgb(111, 177, 235);
+    text-align: center;
+
+}
+.green{
+    color: green;
+}
+.gray{
+    color: rgb(153, 147, 147);
+}
+.bold{
+    text-decoration: underline;
+    font-weight: bolder;
 }
