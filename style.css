@@ -5,6 +5,8 @@
 .container{
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
     padding: 0.5em 3rem;
     background-color: rgba(241, 234, 234, 0.84);
 }
@@ -15,15 +17,14 @@ ul{
     justify-content: flex-start;
     padding-top: 1%;
 }
-
 ol{
-    list-style-type: none;
+    list-style-type:none;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
     padding-top: 1%;
+    background-color: rgba(221, 210, 210, 0.84);
 }
-
 ul li{
     padding: 1% 0;
 }
@@ -40,7 +41,7 @@ ol li a {
     display: block;
     padding: 0 1vw;
     text-decoration: none;
-    color: rgb(154, 149, 149);
+    color: rgb(102, 100, 100);
     font-weight: bolder;
 }
 
@@ -49,7 +50,7 @@ li a:hover{
    text-decoration:underline;
 }
 ol li a::after{
-    content: "   /";
+    content: " /";
 }
 ul li a:hover{
     color: rgb(193, 200, 206);
@@ -69,6 +70,7 @@ section{
     flex-wrap: wrap;
     margin: 0;
     padding: 2%;
+    background-color: rgb(87, 84, 84);
 }
 .cart{
     box-sizing: border-box;
@@ -102,8 +104,12 @@ h2{
 .p1{
     background-color: #f9f4f4;
 }
+.p1:nth-child(3){
+    color: green;
+    background-color: #f9f4f4;
+}
 .p1:first-child{
-    color: rgb(153, 147, 147);
+    color: rgb(150, 144, 144);
     background-color: #f9f4f4;
 }
 .p1:nth-child(2){
@@ -111,7 +117,4 @@ h2{
     font-weight: bolder;
     background-color: #f9f4f4;
 }
-.p1:nth-child(3){
-    color: green;
-    background-color: #f9f4f4;
-}
+
