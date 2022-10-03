@@ -118,22 +118,57 @@ h2{
     font-weight: bolder;
     background-color: #f9f4f4;
 }
-@media only screen and (max-width: 260px) {
-    nav{
-        font-size: 15px;
+@media only screen and (max-width: 300px){
+    ul li a{
+        font-size: 13px;
+    }
+    ol li a{
+        font-size: 13px;
     }
     h1{
-        font-size: 20px;
+        font-size: 18px;
     }
     section{
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 260px) {
+    ul li a{
+        font-size: 10px;
+    }
+    ol li a{
+        font-size: 10px;
+    }
+    h1{
         font-size: 15px;
     }
+    section{
+        font-size: 10px;
+    }
     .img{
-        width: 7.5em;
-        height: 10em;
+        width: 15em;
+        height: 17em;
     }
 }
 
+@media only screen and (max-width: 190px) {
+    ul li a{
+        font-size: 7px;
+    }
+    ol li a{
+        font-size: 7px;
+    }
+    h1{
+        font-size: 12px;
+    }
+    section{
+        font-size: 7px;
+    }
+    .img{
+        width: 13em;
+        height: 15em;
+    }
+}
 @media only print{
      nav{
         display: none;
