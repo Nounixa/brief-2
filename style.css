@@ -4,9 +4,16 @@
 /* nav bar */
 .container{
     display:flex;
+<<<<<<< HEAD
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 0.5em 0;
+=======
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 0.5em 3rem;
+>>>>>>> 3cacd0301097daf6112784bf5118ade46cc1a6c9
     background-color: rgba(241, 234, 234, 0.84);
 }
 ul{
@@ -115,4 +122,9 @@ h2{
     text-decoration: underline;
     font-weight: bolder;
     background-color: #f9f4f4;
+<<<<<<< HEAD
 }
+=======
+}
+
+>>>>>>> 3cacd0301097daf6112784bf5118ade46cc1a6c9
