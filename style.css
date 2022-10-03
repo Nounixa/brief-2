@@ -133,3 +133,9 @@ h2{
         height: 10em;
     }
 }
+
+@media only print{
+     nav{
+        display: none;
+     }
+}
